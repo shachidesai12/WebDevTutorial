@@ -1,0 +1,37 @@
+#wrapper {
+    width: 960 px;
+    height: 800 px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: lightgrey;
+    color: rgb(83, 32, 151);
+}
+#name {
+    float: left;
+    width: 360x;
+    height: 600px;
+    background-color: lightgrey;
+    color: rgb(83, 32, 151);
+}
+
+#Nav {
+    float: right;
+    width: 600px;
+    height: 600px;
+    background-color: lightgrey;
+    color: rgb(83, 32, 151);
+
+}
+#right-column {
+    float: right;
+    width: 600px;
+    height: 600px;
+    background-color: LightGray;
+}
+
+#left-column {
+    float: left;
+    width: 360px;
+    background-color: silver;
+    height: 600px;
+}
