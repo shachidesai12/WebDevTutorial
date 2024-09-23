@@ -1,37 +1,48 @@
 #wrapper {
     width: 960 px;
     height: 800 px;
-    margin-left:auto;
-    margin-right: auto;
-    background-color: lightgrey;
-    color: rgb(83, 32, 151);
+    background-color: rgb(226, 247, 255);
+    color: rgb(50, 191, 242);
 }
-#name {
+header {
     float: left;
-    width: 360x;
-    height: 600px;
-    background-color: lightgrey;
-    color: rgb(83, 32, 151);
+    width: 100%;
+    background-color: rgb(250, 254, 255);
+    color: rgb(50, 191, 242);
 }
 
-#Nav {
-    float: right;
-    width: 600px;
-    height: 600px;
-    background-color: lightgrey;
-    color: rgb(83, 32, 151);
-
-}
-#right-column {
-    float: right;
-    width: 600px;
-    height: 600px;
-    background-color: LightGray;
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 254, 255);
+    color: rgb(50, 191, 242);
+    padding: 10 80px;
 }
 
-#left-column {
+#left-home {
     float: left;
-    width: 360px;
-    background-color: silver;
+    width: 50%;
+    background-color: rgb(226, 247, 255);
     height: 600px;
+}
+
+#right-home {
+    float: right;
+    width: 50%;
+    background-color: rgb(226, 247, 255);
+    height: 600px;
+}
+
+#homeText {
+    margin-top: 130px;
+    margin-left: 70px;
+    background-color: rgb(226, 247, 255);
+    color: rgb(19, 19, 75);
+}
+
+img{
+    margin-top: 100px;
+    margin-left: 30px;
+    max-width: 70%;
+    max-height: 50%;
 }
