@@ -1,0 +1,41 @@
+#wrapper {
+    width: 960 px;
+    height: 800 px;
+    background-color: rgb(226, 247, 255);
+    color: rgb(50, 191, 242);
+}
+
+header {
+    float: left;
+    width: 100%;
+    background-color: rgb(250, 254, 255);
+    color: rgb(50, 191, 242);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 254, 255);
+    color: rgb(50, 191, 242);
+    padding: 10 80px;
+}
+
+body{
+    background: lightblue;
+    background: -moz-linear-gradient(top, lightblue 0%, rgb(50, 191, 242) 100%);
+    background: -webkit-linear-gradient(top, lightblue 0%, rgb(50, 191, 242) 100%);
+    background: -o-linear-gradient(top, lightblue 0%, rgb(50, 191, 242) 100%);
+    background: linear-gradient(to bottom, lightblue 0%, rgb(50, 191, 242) 100%);
+}
+
+#projBody{
+    background: lightblue;
+    background: -moz-linear-gradient(100deg, lightblue 0%, rgb(50, 191, 242) 100%);
+    background: -webkit-linear-gradient(100deg, lightblue 0%, rgb(50, 191, 242) 100%);
+    background: -o-linear-gradient(100deg, lightblue 0%, rgb(50, 191, 242) 100%);
+    background: linear-gradient(-50deg, lightblue 0%, rgb(50, 191, 242) 100%);
+}
+
+#title{
+    color: rgb(19, 19, 75);;
+}
