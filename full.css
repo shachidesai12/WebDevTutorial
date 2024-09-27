@@ -1,3 +1,6 @@
+*{
+    font-family: sans-serif;
+}
 #wrapper {
     width: 960 px;
     height: 800 px;
@@ -9,35 +12,58 @@ header {
     width: 100%;
     background-color: rgb(250, 254, 255);
     color: rgb(50, 191, 242);
+    
+}
+/* put nav bar horizontal*/
+header *{
+    display: inline;
+}
+ /* Space out navigation tabs*/
+header li{
+    margin: 12px
 }
 
-nav {
-    display: flex;
+header li a{
+    text-decoration: none;
+    color: rgb(40, 155, 221);
+}
+
+/*change colour of navbar when hovered over*/
+#header .navBar ul li:hover a {
+    color:rgb(29, 29, 104);
+}
+
+#header .navBar{
+    width: 100%;
+    position: relative;
+    display: inline-flex;
     justify-content: space-between;
-    background-color: rgb(250, 254, 255);
+    background-color: rgb(221, 246, 252);
     color: rgb(50, 191, 242);
-    padding: 10 80px;
+}
+#pageLinks{
+    align-items: center;
+    margin: 20px;
+    color: rgb(50, 191, 242);
 }
 
-#left-home {
+#homePage {
     float: left;
-    width: 50%;
-    background-color: rgb(226, 247, 255);
+    width: 100%;
     height: 750px;
-}
+    background: lightblue;
+    background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, lightblue 100%);
+    background: -webkit-linear-gradient(25deg, rgb(50, 191, 242) 0%, lightblue 100%);
+    background: -o-linear-gradient(25deg, rgb(50, 191, 242) 0%, lightblue 100%);
+    background: linear-gradient(-100deg, rgb(50, 191, 242) 0%, lightblue 100%);
 
-#right-home {
-    float: right;
-    width: 50%;
-    background-color: rgb(226, 247, 255);
-    height: 750px;
 }
 
 #homeText {
     margin-top: 130px;
-    margin-left: 70px;
-    background-color: rgb(226, 247, 255);
-    color: rgb(19, 19, 75);
+    margin-left: 10%;
+    background-color: transparent;
+    color: rgb(29, 29, 104);
 }
 
 img{
@@ -48,14 +74,19 @@ img{
 }
 
 .box {
-    height: 7%;
-    width: 80%;
-    float: left;
-    background-color: rgb(50, 191, 242);
-    margin-left: 10%;
-    margin-top: 10%;
-    opacity: 0.7;
+    height: 60px;
+    width: 50%;
+    background-color: transparent;
+    margin-left: 30%;
+    margin-top: 5%;
+    opacity: 1;
     text-align: center;
-    color: black;
+    padding: 5px 0;
+    border-radius: 15px 50px;
+    border-style:solid
+
+}
+#box{
+    color: rgb(29, 29, 104);
 }
 
