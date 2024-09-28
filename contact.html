@@ -4,62 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="contactFull.css">
+    <link rel="stylesheet" href="full.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header id="header">
+        <!--Class created to hold contents of navigation bar-->
+        <nav class="navBar">
             <div class="logo">
-                <h1>. Shachi .</h1>
+                <h1 style="font-size: 30px;">_shachi_</h1>
             </div>
             <div class="pageLinks">
-                <h4>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="contact.html">Contact</a>
-                </h4>
+                <ul>
+                    <h4>
+                        <!--Insert links to all the pages-->
+                        <li><a href="index.html" style="font-size: 20px;" ><span>Home</span></a></li>
+                        <li><a href="about2.html" style="font-size: 20px;"><span>About</span></a></li>
+                        <li><a href="projects.html" style="font-size: 20px;"><span>Projects</span></a></li>
+                        <li><a href="contact.html" style="font-size: 20px;"><span>Contact</span></a></li>
+                    </h4>
+                </ul>
             </div>
         </nav>
     </header>
     
-    <div id="wrapper"></div>
-    <h1 id="title" style="font-size: 50px;">Contact Me</h1>
+    <div id="pageBack">
+    <h1 class="titleText" style="font-size: 50px;">Contact Me</h1>
         <!--What will happen when someone uses form -->
-        <form action="mailto:shachi.desai@hotmail.com" method="post" enctype="text/plain" ?subject=Mistakes name="form">
-            <!--Use get to recieve and post to send -->
-            <p>
-                <label for="name">Name:</label>
-                <input type="text" name="name" placeholder="Enter your full name" size="32" required>
-            </p>
-            <p>
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Enter a valid email" size="50" required>
-            </p>
-            <p>
-                <label for="comments">Comments:</label>
-                <br>
-                <textarea name="comments" cols="40" rows="8"></textarea>
-            </p>
-            <p>
-                <label for="Networking Event">Would you be interested in coming to a networking event?</label>
-                <select name="Networking Event">
-                    <option value="Yes">Yes</optionvalue>
-                    </option>
-                    <option value="No">No</optionvalue>
-                    </option>
-                </select>
-            </p>
-            <p>
-                <input type="submit" value="Click to Submit the Form">
-            </p>
-            <p>
-                <input type="reset" value="Click to Reset the Form">
-            </p>
-        </form>
+        <div id="formContents">
+            <form action="mailto:shachi.desai@hotmail.com" method="post" enctype="text/plain" ?subject=Mistakes name="form">
+                <!--Use get to recieve and post to send -->
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Enter your full name" size="32" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Enter a valid email" size="50" required>
+                </p>
+                <p>
+                    <label for="comments">Comments:</label>
+                    <br>
+                    <textarea name="comments" cols="40" rows="8"></textarea>
+                </p>
+                <p>
+                    <label for="Networking Event">Would you be interested in coming to a networking event?</label>
+                    <select name="Networking Event">
+                        <option value="Yes">Yes</optionvalue>
+                        </option>
+                        <option value="No">No</optionvalue>
+                        </option>
+                    </select>
+                </p>
+                <div id="inputBtn">
+                    <li><input type="submit" value="SUBMIT" style="font-size: 15px;"></li>
+                    <li><input type="reset" value="RESET" style="font-size: 15px;"></li>
+                </p>
+                
+                    
+            </form>
+        </div>
 
 
     </div>
+    </div>
 </body>
 
+<footer id="footer">
+    <div class="footer container">
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">  You can contact me at shachi.desai@ontariotechu.net</p>
+      </div>
+      <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">© 2024 by Shachi Desai</p>
+    </div>
+  </footer>
 </html>
