@@ -82,9 +82,14 @@ header li a{
     
 }
 
-#homeText h1,h2{
+#homeText h1{
+    font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
+    
+}
+
+#homeText h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .titleText {
@@ -111,7 +116,7 @@ header li a{
 }
 #box{
     color: rgb(29, 29, 104);
-    font-size: 8px;
+    font-size: 10px;
 }
 
 

@@ -78,7 +78,13 @@ header li a{
     color: rgb(29, 29, 104);
 }
 
-#homeText h1,h2{
+#homeText h1{
+    font-size: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#homeText h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
