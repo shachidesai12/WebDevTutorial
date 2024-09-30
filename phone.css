@@ -95,11 +95,11 @@ header li a{
 }
 
 .box {
-    height: 45px;
+    height: 10%;
     width: 50%;
     background-color: rgb(202, 240, 252);
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     justify-content: center;
     padding-bottom: 20px;
