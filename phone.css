@@ -192,14 +192,14 @@ header li a{
 
 #leftCol p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 img{
     margin-top: 0%;
-    margin-left: 25px;
-    max-width: 70%;
-    max-height: 15%;
+    margin-left: 25%;
+    width: 80%;
+    max-height: auto;
 
 }
 
@@ -227,6 +227,8 @@ img{
 }
 #vidInstruct{
     color: rgb(34, 34, 120);
+    font-size: 15px;
+
 }
 
 #IntroPara{
