@@ -1,8 +1,9 @@
+
 *{
     font-family: sans-serif;
 }
 #wrapper {
-    width: 960 px;
+    width: 100%;
     height: 800 px;
     margin-left: auto;
     margin-right: auto;
@@ -12,12 +13,11 @@
 /**************************************************/
 /*CSS for header on ALL pages*/
 .logo{
-    margin-left: 5px;
+    margin-left: 2%;
 }
 header {
     float: left;
     width: 100%;
-    height: 35px;
     background-color: rgb(250, 254, 255);
     color: rgb(50, 191, 242);
     
@@ -35,6 +35,8 @@ header li{
 header li a{
     text-decoration: none;
     color: rgb(40, 155, 221);
+    
+    
 }
 
 /*change colour of navbar when hovered over*/
@@ -53,6 +55,7 @@ header li a{
 }
 #pageLinks{
     align-items: center;
+    margin: 20px;
     color: rgb(50, 191, 242);
 }
 
@@ -73,45 +76,48 @@ header li a{
 
 #homeText {
     margin-top: 110px;
-    margin-left: 100px;
+    margin-left: 10%;
     background-color: transparent;
     color: rgb(29, 29, 104);
+    
 }
 
 #homeText h1,h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
 }
 
 .titleText {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 10%;
+    margin-left: 2%;
     background-color: transparent;
     color: rgb(29, 29, 104);
 }
 
 .box {
-    height: 9%;
+    height: 45px;
     width: 50%;
-    background-color: transparent;
+    background-color: rgb(202, 240, 252);
     margin-left: 30%;
-    margin-top: 5%;
-    opacity: 1;
+    margin-top: 10%;
     text-align: center;
-    padding: 5px 0;
+    justify-content: center;
+    padding-bottom: 20px;
     border-radius: 15px;
-    border-style:solid
-}
+    border-style: solid;
+    border-color: rgb(202, 240, 252);
+    color: rgb(34, 34, 120);
 
+}
 #box{
     color: rgb(29, 29, 104);
-    font-size: 13px;
+    font-size: 15px;
 }
 
 
 /**************************************************/
 /*CSS for CONTACT background*/
 #pageBack {
-    float: left;
     width: 100%;
     height: 725px;
     background: lightblue;
@@ -126,7 +132,7 @@ header li a{
 /**************************************************/
 /*CSS for CONTACT pages*/
 #formContents{
-    margin-left: 30px;
+    margin-left: 2%;
 }
 
 #inputBtn{
@@ -136,6 +142,7 @@ header li a{
     list-style: none;
     font-size: 2rem;
     letter-spacing: 0.1rem;
+
 }
 
 #pageBack h1{
@@ -177,35 +184,29 @@ header li a{
 #leftCol h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 img{
-    margin-top: 10px;
+    margin-top: 3%;
     margin-left: 25px;
-    max-width: 450px;
-    max-height: 370px;
-    
-    transition: transform .2s; /* Animation */
+    max-width: 70%;
+    max-height: 15%;
+
 }
-
-img:hover {
-    transform: scale(1.1);
-}
-
-
 
 #aboutTitle {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 2%;
     background-color: transparent;
     color: rgb(29, 29, 104);
 }
 
-
 .vidInstruct {
-    height: 35px;
-    width: 500px;
+    height: 15%;
+    width: 60%;
     background-color: rgb(202, 240, 252);
-    margin-left: 20%;
-    margin-top: 75px;
+    margin-left: 35%;
+    margin-top: 10%;
+    opacity: 1;
     text-align: center;
     justify-content: center;
     padding-bottom: 20px;
@@ -216,12 +217,12 @@ img:hover {
 }
 #vidInstruct{
     color: rgb(34, 34, 120);
-    size: 50%;
 }
 
 #IntroPara{
-    font-size: 20px;
+    font-size: 100%;
     margin-left: 25px;
+    margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     text-justify: inter-word;
@@ -240,40 +241,6 @@ img:hover {
     font-family: 'Times New Roman', Times, serif;
   }
 
-.projectNames h2{
-    height: 35px;
-    width: 500px;
-    background-color: rgb(202, 240, 252);
-    margin-left: 450px;
-    margin-top: 75px;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(202, 240, 252);
-}
-
-.projectNames h4{
-    height: 35px;
-    width: 500px;
-    background-color: rgb(252, 202, 247);
-    margin-left: 450px;
-    margin-top: 75px;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(202, 240, 252);
-}
-
-.projectNames{
-    transition: transform .2s; /* Animation */
-}
-
-.projectNames:hover {
-    transform: scale(1.1);
-}
+ 
 
 
