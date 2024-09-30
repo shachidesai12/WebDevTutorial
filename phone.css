@@ -76,7 +76,7 @@ header li a{
 
 #homeText {
     margin-top: 110px;
-    margin-left: 10%;
+    margin-left: 5%;
     background-color: transparent;
     color: rgb(29, 29, 104);
     
@@ -190,6 +190,11 @@ header li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#leftCol p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
 img{
     margin-top: 0%;
     margin-left: 25px;
@@ -199,7 +204,7 @@ img{
 }
 
 #aboutTitle {
-    margin-top: 20px;
+    margin-top: 18px;
     margin-left: 2%;
     background-color: transparent;
     color: rgb(29, 29, 104);
