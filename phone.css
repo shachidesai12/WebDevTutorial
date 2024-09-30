@@ -226,14 +226,14 @@ img{
 
 }
 #vidInstruct{
-    color: rgb(34, 34, 120);
+    color: red;
     font-size: 15px;
 
 }
 
 #IntroPara{
-    font-size: 12px;
-    margin-left: 25px;
+    font-size: 14px;
+    margin-left: 25%;
     margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
