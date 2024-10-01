@@ -197,8 +197,8 @@ header li a{
 
 #image img{
     margin-top: 0%;
-    margin-left: 5%;
-    width: 170px;
+    margin-left: 0%;
+    width: 180px;
     max-height: auto;
 
 }
@@ -226,13 +226,13 @@ header li a{
 
 }
 .vidInstruct #vidInstruct{
-    color: red;
+    color: green;
     font-size: 12px;
 
 }
 
 #IntroPara{
-    font-size: 38px;
+    font-size: 40px;
     margin-left: 5%;
     margin-top: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
