@@ -14,7 +14,7 @@
 /*CSS for header on ALL pages*/
 .logo{
     margin-left: 2%;
-    font-size: 30px;
+    font-size: 15px;
 }
 header {
     float: left;
@@ -198,8 +198,7 @@ header li a{
 }
 
 #image img{
-    margin-top: 0%;
-    margin-left: 1px;
+    margin-left: 0px;
     width: 180px;
     max-height: auto;
 
@@ -217,7 +216,7 @@ header li a{
     width: 60%;
     background-color: rgb(202, 240, 252);
     margin-left: 20%;
-    margin-top: 60%;
+    margin-top: 55%;
     opacity: 1;
     text-align: center;
     justify-content: center;
@@ -228,7 +227,7 @@ header li a{
 
 }
 .vidInstruct #vidInstruct{
-    color: green;
+    color: red;
     font-size: 12px;
 
 }
