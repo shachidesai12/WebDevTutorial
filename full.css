@@ -54,6 +54,7 @@ header li a{
 #pageLinks{
     align-items: center;
     color: rgb(50, 191, 242);
+    font-size: 20px;
 }
 
 /**************************************************/
