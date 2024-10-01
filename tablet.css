@@ -248,8 +248,8 @@ img{
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .projectNames h2{
-    height: 10%;
+  .projectNames h1{
+    height: 15%;
     width: 50%;
     background-color: rgb(202, 240, 252);
     margin-left: 26%;
@@ -262,19 +262,15 @@ img{
     border-color: rgb(202, 240, 252);
 }
 
-.projectNames h4{
-    height: 10%;
-    width: 50%;
+.btn {
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid rgb(252, 202, 247);
     background-color: rgb(252, 202, 247);
-    margin-left: 26%;
-    margin-top: 0%;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
+    color: black;
+    margin-left: 290px;
     border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(252, 202, 247);
-}
+  }
 
  
 
