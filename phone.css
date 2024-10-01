@@ -259,7 +259,7 @@ img{
 
   .projectNames h1,h3{
     height: 15%;
-    width: 50%;
+    width: 55%;
     background-color: rgb(202, 240, 252);
     margin-left: 24%;
     margin-top: 10%;
@@ -271,7 +271,7 @@ img{
     border-color: rgb(202, 240, 252);
 }
 
-.btn #firstProj{
+.btn{
     text-decoration: none;
     padding: 0.5rem;
     border: 1px solid rgb(252, 202, 247);
@@ -281,7 +281,7 @@ img{
     border-radius: 15px;
   }
 
-.btn #secondProj{
+.btn #two{
     text-decoration: none;
     padding: 0.5rem;
     border: 1px solid rgb(252, 202, 247);
