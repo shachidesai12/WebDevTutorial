@@ -197,9 +197,9 @@ header li a{
     font-size: 12px;
 }
 
-#image img{
+img{
     margin-left: 0px;
-    width: 180px;
+    width: 170px;
     max-height: auto;
 
 }
@@ -227,7 +227,7 @@ header li a{
 
 }
 .vidInstruct #vidInstruct{
-    color: red;
+    color: rgb(34, 34, 120);
     font-size: 12px;
 
 }
