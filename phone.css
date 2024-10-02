@@ -201,7 +201,7 @@ header li a{
 }
 
 img{
-    margin-left: 0px;
+    margin-left: 5%;
     width: 170px;
     max-height: auto;
 
@@ -230,16 +230,16 @@ img{
 
 }*/
 .vidInstruct #vidInstruct{
-    color: red;
+    color: rgb(34, 34, 120);
     font-size: 12px;
 
 }
 
 #myVideo{
     margin-left: 15%;
-    margin-top: 25%;
-    width: 170px;
-    height: 80px;
+    margin-top: 5%;
+    width: 200px;
+    height: 100px;
   }
   button{
     background-color: rgb(34, 34, 120);
