@@ -230,11 +230,36 @@ img{
 
 }*/
 .vidInstruct #vidInstruct{
-    color: rgb(34, 34, 120);
+    color: red;
     font-size: 12px;
 
 }
 
+#myVideo{
+    margin-left: 15%;
+    margin-top: 25%;
+    width: 170px;
+    height: 80px;
+  }
+  button{
+    background-color: rgb(34, 34, 120);
+    color: white;
+    height: 50px;
+    border: 2px whitesmoke;
+    border-radius: 5px; /*This rounds the edges*/
+    margin-left: 33%;
+    margin-top: 10%;
+  
+  }
+  button:hover
+  {
+      background-color: white;
+      color: rgb(34, 34, 120);
+      height: 50px;
+      border: 2px whitesmoke;
+      border-radius: 5px; /*This rounds the edges*/
+  }
+  
 #IntroPara{
     font-size: 40px;
     margin-left: 5%;
@@ -244,6 +269,8 @@ img{
     text-justify: inter-word;
     color: rgb(29, 29, 104);
 }
+
+
 
 /**************************************************/
 /*CSS for FOOTER*/
@@ -291,34 +318,4 @@ img{
     border-radius: 15px;
   }
 
-  #myVideo{
-    margin-left: 15%;
-    margin-top: 25%;
-    width: 70%;
-    height: 30%;
-  }
-  button{
-    background-color: rgb(34, 34, 120);
-    color: white;
-    height: 50px;
-    border: 2px whitesmoke;
-    border-radius: 5px; /*This rounds the edges*/
-    margin-left: 33%;
-    margin-top: 10%;
   
-  }
-  button:hover
-  {
-      background-color: white;
-      color: rgb(34, 34, 120);
-      height: 50px;
-      border: 2px whitesmoke;
-      border-radius: 5px; /*This rounds the edges*/
-  }
-  
-  
-  
-  
-
-
-
