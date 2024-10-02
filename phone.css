@@ -284,10 +284,13 @@ img{
     font-family: 'Times New Roman', Times, serif;
   }
 
+    /**************************************************/
+  /*CSS for PROJECT*/
+
   .projectNames h1,h3{
     height: 15%;
     width: 55%;
-    background-color: rgb(202, 240, 252);
+    background-color: rgb(160, 231, 253);
     margin-left: 24%;
     margin-top: 10%;
     text-align: center;
@@ -298,23 +301,23 @@ img{
     border-color: rgb(202, 240, 252);
 }
 
-.btn #one{
+a#one.btn{
     text-decoration: none;
     padding: 0.5rem;
     border: 1px solid rgb(252, 202, 247);
     background-color: rgb(252, 202, 247);
     color: black;
-    margin-left: 60px;
+    margin-left: 30%;
     border-radius: 15px;
   }
 
-.btn #two{
+a#two.btn{
     text-decoration: none;
     padding: 0.5rem;
     border: 1px solid rgb(252, 202, 247);
-    background-color: blueviolet;
+    background-color: rgb(252, 202, 247);
     color: black;
-    margin-left: 85px;
+    margin-left: 41%;
     border-radius: 15px;
   }
 
