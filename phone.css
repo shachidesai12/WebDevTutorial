@@ -239,11 +239,11 @@ figure{
 
 }
 
-#myVideo{
-    margin-left: 15%;
-    margin-top: 5%;
-    width: 200px;
-    height: 100px;
+video#myVideo{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 220px;
+    height: 120px;
   }
   button{
     background-color: rgb(34, 34, 120);
@@ -321,7 +321,7 @@ a#two.btn{
     border: 1px solid rgb(252, 202, 247);
     background-color: rgb(252, 202, 247);
     color: black;
-    margin-left: 30%;
+    margin-left: 25%;
     border-radius: 15px;
   }
 
