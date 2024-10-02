@@ -128,6 +128,7 @@ header li a{
 /**************************************************/
 /*CSS for CONTACT background*/
 #pageBack {
+    float: left;
     width: 100%;
     height: 725px;
     background: lightblue;
