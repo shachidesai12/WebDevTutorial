@@ -214,7 +214,7 @@ img{
     color: rgb(29, 29, 104);
 }
 
-.vidInstruct {
+/*.vidInstruct {
     height: 15%;
     width: 60%;
     background-color: rgb(202, 240, 252);
@@ -228,7 +228,7 @@ img{
     border-style: solid;
     border-color: rgb(202, 240, 252);
 
-}
+}*/
 .vidInstruct #vidInstruct{
     color: rgb(34, 34, 120);
     font-size: 12px;

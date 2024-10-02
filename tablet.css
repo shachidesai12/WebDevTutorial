@@ -193,10 +193,10 @@ header li a{
 }
 
 img{
-    margin-top: 3%;
+    margin-top: 8%;
     margin-left: 25px;
-    max-width: 70%;
-    max-height: 15%;
+    max-width: 90%;
+    max-height: auto;
 
 }
 
@@ -207,21 +207,7 @@ img{
     color: rgb(29, 29, 104);
 }
 
-.vidInstruct {
-    height: 15%;
-    width: 60%;
-    background-color: rgb(202, 240, 252);
-    margin-left: 35%;
-    margin-top: 10%;
-    opacity: 1;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(202, 240, 252);
 
-}
 #vidInstruct{
     color: rgb(34, 34, 120);
 }
@@ -248,11 +234,11 @@ img{
     font-family: 'Times New Roman', Times, serif;
   }
 
-  .projectNames h1{
+  .projectNames h1,h3{
     height: 15%;
-    width: 50%;
+    width: 55%;
     background-color: rgb(202, 240, 252);
-    margin-left: 26%;
+    margin-left: 24%;
     margin-top: 10%;
     text-align: center;
     justify-content: center;
@@ -262,7 +248,26 @@ img{
     border-color: rgb(202, 240, 252);
 }
 
-.btn {
+.btn #one{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid rgb(252, 202, 247);
+    background-color: rgb(252, 202, 247);
+    color: black;
+    margin-left: 60px;
+    border-radius: 15px;
+  }
+
+.btn #two{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid rgb(252, 202, 247);
+    background-color: blueviolet;
+    color: black;
+    margin-left: 85px;
+    border-radius: 15px;
+  }
+/*.btn {
     text-decoration: none;
     padding: 0.5rem;
     border: 1px solid rgb(252, 202, 247);
@@ -270,8 +275,32 @@ img{
     color: black;
     margin-left: 290px;
     border-radius: 15px;
-  }
+  }*/
 
- 
+#myVideo{
+  margin-left: 15%;
+  margin-top: 25%;
+  width: 70%;
+  height: 30%;
+}
+button{
+  background-color: rgb(34, 34, 120);
+  color: white;
+  height: 50px;
+  border: 2px whitesmoke;
+  border-radius: 5px; /*This rounds the edges*/
+  margin-left: 33%;
+  margin-top: 10%;
+
+}
+button:hover
+{
+    background-color: white;
+    color: rgb(34, 34, 120);
+    height: 50px;
+    border: 2px whitesmoke;
+    border-radius: 5px; /*This rounds the edges*/
+}
+
 
 

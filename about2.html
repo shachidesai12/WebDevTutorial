@@ -48,9 +48,25 @@
         <div id="rightCol">
             <div class="vidInstruct">
                 <div id="vidInstruct">
-                    <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Watch the video to find out more!</h2>
+                    <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Watch the video to find out more!</h3>
                 </div>
             </div>
+            <video controls poster="shachiPic.png" preload = "auto", loop muted id="myVideo">
+                <source src="video.MP4" type="video/mp4">
+            </video>
+            <br>
+            <button onclick="playPause()">Play/Pause Button</button>
+            <!--whatever you write in script tag is cript code, this is where we enter logic for play/pause -->
+            <script>
+                var mybtn=document.getElementById("myVideo");
+                function playPause()
+                {
+                    if(mybtn.paused)
+                        mybtn.play();
+                    else
+                        mybtn.pause();
+                }        
+            </script>
         </div>
     </div>
 </body>
