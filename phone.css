@@ -240,12 +240,12 @@ figure{
 }
 
 #myVideo{
-    width: 200px;
-    height: 100px;
+    width: 205px;
+    height: 105px;
   }
 
   video{
-    margin-left: 5px;
+    margin-left: 0px;
     margin-top: 15px;
   }
   button{
@@ -254,8 +254,8 @@ figure{
     height: 50px;
     border: 2px whitesmoke;
     border-radius: 5px; /*This rounds the edges*/
-    margin-left: 33%;
-    margin-top: 10%;
+    margin-left: 31%;
+    margin-top: 11%;
   
   }
   button:hover
