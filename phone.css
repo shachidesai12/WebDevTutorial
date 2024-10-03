@@ -240,7 +240,7 @@ figure{
 }
 
 #myVideo{
-    width: 205px;
+    width: 210px;
     height: 105px;
   }
 
@@ -254,7 +254,7 @@ figure{
     height: 50px;
     border: 2px whitesmoke;
     border-radius: 5px; /*This rounds the edges*/
-    margin-left: 31%;
+    margin-left: 28%;
     margin-top: 11%;
   
   }
