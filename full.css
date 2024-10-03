@@ -187,10 +187,10 @@ header li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 25px;
     max-width: 430px;
-    max-height: 350px;
+    max-height: 340px;
     
     transition: transform .2s; /* Animation */
 }
