@@ -204,7 +204,7 @@ header li a{
 img{
     margin-left: 5%;
     width: 170px;
-    max-height: auto;
+    /*max-height: auto;*/
 }
 
 figure{

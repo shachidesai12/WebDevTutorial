@@ -225,7 +225,7 @@ img:hover {
 }*/
 #vidInstruct{
     color: rgb(34, 34, 120);
-    size: 30%;
+    font-size: 100%;
 }
 
 #IntroPara{
