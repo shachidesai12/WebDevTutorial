@@ -234,14 +234,14 @@ figure{
 
 }*/
 .vidInstruct #vidInstruct{
-    color: red;
+    color: rgb(34, 34, 120);
     font-size: 12px;
 
 }
 
 #myVideo{
-    width: 210px;
-    height: 105px;
+    width: 215px;
+    height: 115px;
   }
 
   video{
