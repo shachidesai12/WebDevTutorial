@@ -17,10 +17,12 @@
 }
 header {
     float: left;
-    width: 100%;
+    width: 99%;
     height: 35px;
     background-color: rgb(250, 254, 255);
     color: rgb(50, 191, 242);
+    position: fixed; /* Keep navBar at top when scrolling */
+    top: 0; 
     
 }
 /* put nav bar horizontal*/
@@ -52,7 +54,10 @@ header li a{
     background-color: rgb(221, 246, 252);
     color: rgb(50, 191, 242);
     
+    
 }
+
+
 #pageLinks{
     align-items: center;
     color: rgb(50, 191, 242);

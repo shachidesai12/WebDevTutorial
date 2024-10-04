@@ -21,6 +21,9 @@ header {
     width: 100%;
     background-color: rgb(250, 254, 255);
     color: rgb(50, 191, 242);
+    position: fixed; /* Keep navBar at top when scrolling */
+    top: 0;
+    
     
 }
 /* put nav bar horizontal*/
@@ -29,14 +32,14 @@ header *{
 }
  /* Space out navigation tabs*/
 header li{
-    margin: 12px
+    margin: 10px
     
 }
 
 header li a{
     text-decoration: none;
     color: rgb(29, 29, 104);
-    font-size: 20px;
+    font-size: 18px;
     
     
 }
