@@ -72,7 +72,7 @@ header li a{
 #homePage {
     float: left;
     width: 100%;
-    min-height: 725px;
+    min-height: 750px;
     background: lightblue;
     /*Linear Gradient*/
     background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
