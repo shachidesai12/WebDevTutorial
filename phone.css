@@ -21,7 +21,7 @@
 }
 header {
     float: left;
-    width: 100%;
+    width: 98%;
     background-color: rgb(250, 254, 255);
     color: rgb(50, 191, 242);
     position: fixed; /* Keep navBar at top when scrolling */
@@ -41,6 +41,7 @@ header li{
 header li a{
     text-decoration: none;
     color: rgb(34, 34, 120);
+
     
     
 }
