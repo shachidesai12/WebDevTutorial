@@ -5,8 +5,7 @@
 #wrapper {
     min-width: 960px;
     min-height: 755px;
-    margin-left: auto;
-    margin-right: auto;
+
     background-color: rgb(226, 247, 255);
     color: rgb(50, 191, 242);
 }
@@ -212,8 +211,6 @@ img:hover {
     color: rgb(34, 34, 120);
     font-size: 100%;
 }
-
-
 
 /*Section in which video is in*/
 #myVideo{
