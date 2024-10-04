@@ -4,7 +4,7 @@
 }
 #wrapper {
     width: 100%;
-    height: 800 px;
+    height: 755px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(226, 247, 255);
@@ -71,7 +71,7 @@ header li a{
 #homePage {
     float: left;
     width: 100%;
-    height: 725px;
+    height: 775px;
     background: lightblue;
     /*Linear Gradient*/
     background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -132,7 +132,7 @@ header li a{
 #pageBack {
     float: left;
     width: 100%;
-    height: 750px;
+    height: 775px;
     background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(45deg, rgb(50, 191, 242) 0%, white 100%);
@@ -172,7 +172,7 @@ header li a{
 #rightCol{
     float: right;
     width: 50%;
-    height: 750px;
+    height: 775px;
     background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252)100%);
@@ -184,7 +184,7 @@ header li a{
 #leftCol{
     float: left;
     width: 50%;
-    height: 750px;
+    height: 775px;
     background: lightblue;
     background: lightblue;
     /*Angular Gradient*/
