@@ -35,7 +35,7 @@
     <h1 class="titleText" style="font-size: 50px;">Contact Me</h1>
         <!--Create form inputs -->
         <div id="formContents">
-            <form action="mailto:shachi.desai@hotmail.com" method="post" enctype="text/plain" ?subject=Mistakes name="form">
+            <form action="mailto:shachi.desai@hotmail.com" method="post" enctype="text/plain" name="form">
                 <!--Use get to recieve and post to send -->
                 <p>
                     <label for="name">Name:</label>
@@ -51,26 +51,23 @@
                     <textarea name="comments" cols="50" rows="9"></textarea>
                 </p>
                 <p>
-                    <label for="Networking Event">Would you be interested in coming to a networking event?</label>
+                    <label for="NetworkingEvent">Would you be interested in coming to a networking event?</label>
                     <select name="NetworkingEvent">
-                        <option value="Yes">Yes</optionvalue>
-                        </option>
-                        <option value="No">No</optionvalue>
-                        </option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
                     </select>
                 </p>
                 <!--Buttons to submit or reset the form-->
                 <div id="inputBtn">
                     <div id="submit">
-                        <li><input type="submit" value="SUBMIT" style="font-size: 15px;"></li>
+                        <input type="submit" value="SUBMIT" style="font-size: 15px;">
                     </div>
                     <div id="reset">
-                        <li><input type="reset" value="RESET" style="font-size: 15px;"></li>
+                        <input type="reset" value="RESET" style="font-size: 15px;">
                     </div>
-                </p>      
+                </div>      
             </form>
         </div>
-    </div>
     </div>
     <footer id="footer">
         <div class="footer container">
