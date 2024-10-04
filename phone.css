@@ -4,7 +4,7 @@
 }
 #wrapper {
     width: 100%;
-    min-height: 755px;
+    min-height: 725px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(226, 247, 255);
@@ -69,7 +69,7 @@ header li a{
 #homePage {
     float: left;
     width: 100%;
-    min-height: 775px;
+    min-height: 750px;
     background: lightblue;
     /*Linear Gradient*/
     background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -83,7 +83,7 @@ header li a{
     margin-top: 110px;
     margin-left: 5%;
     background-color: transparent;
-    color: rgb(29, 29, 104);
+    color: red;
     
 }
 
