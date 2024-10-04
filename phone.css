@@ -4,7 +4,7 @@
 }
 #wrapper {
     width: 100%;
-    height: 800 px;
+    min-height: 755px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(226, 247, 255);
@@ -21,7 +21,7 @@
 }
 header {
     float: left;
-    width: 98%;
+    width: 100%;
     background-color: rgb(250, 254, 255);
     color: rgb(50, 191, 242);
     /*
@@ -74,7 +74,7 @@ header li a{
 #homePage {
     float: left;
     width: 100%;
-    height: 725px;
+    min-height: 725px;
     background: lightblue;
     /*Linear Gradient*/
     background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -135,7 +135,7 @@ header li a{
 #pageBack {
     float: left;
     width: 100%;
-    height: 725px;
+    height: 750px;
     background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(45deg, rgb(50, 191, 242) 0%, white 100%);
@@ -175,7 +175,7 @@ header li a{
 #rightCol{
     float: right;
     width: 50%;
-    height: 725px;
+    height: 750px;
     background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252)100%);
@@ -187,7 +187,7 @@ header li a{
 #leftCol{
     float: left;
     width: 50%;
-    height: 725px;
+    height: 750px;
     background: lightblue;
     background: lightblue;
     /*Angular Gradient*/
