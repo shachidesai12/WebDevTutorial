@@ -224,12 +224,12 @@ img:hover {
 
 }*/
 #vidInstruct{
-    color: red;
+    color: rgb(34, 34, 120);
     font-size: 100%;
 }
 
 #IntroPara{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
@@ -254,7 +254,7 @@ video{
     height: 50px;
     border: 2px whitesmoke;
     border-radius: 5px; /*This rounds the edges*/
-    margin-left: 45%;
+    margin-left: 48%;
     margin-top: 25px;
 
 }
