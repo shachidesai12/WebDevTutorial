@@ -1,6 +1,7 @@
 *{
     font-family: sans-serif;
 }
+
 #wrapper {
     min-width: 960px;
     min-height: 755px;
@@ -16,7 +17,6 @@
     font-size: 30px;
 }
 header {
-    float: left;
     width: 100%;
     height: 35px;
     background-color: rgb(250, 254, 255);
@@ -37,7 +37,7 @@ header li{
 header li a{
     text-decoration: none;
     color: rgb(34, 34, 120);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /*change colour of navbar when hovered over*/
@@ -46,9 +46,9 @@ header li a{
 }
 
 #header .navBar{
-    width: 100%;
+    width: 99%;
     position: relative;
-    display: inline-flex;
+    display: inline-flex; /*Make sure logo is inline with other contents*/
     justify-content: space-between;
     background-color: rgb(221, 246, 252);
     color: rgb(34, 34, 120);
@@ -64,11 +64,11 @@ header li a{
 /**************************************************/
 /*CSS for HOME pages*/
 #homePage {
-    float: inline-start;
+    float: inline-start; /*Make sure it is positioned at the top*/
     width: 100%;
     min-height: 775px;
     background: lightblue;
-    /*Linear Gradient*/
+    /*Angular Gradient*/
     background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
     background: -webkit-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
     background: -o-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -86,18 +86,10 @@ header li a{
 #homeText h1{
     font-size: 65px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 #homeText h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.titleText {
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: transparent;
-    color: rgb(29, 29, 104);
 }
 
 .box {
@@ -108,7 +100,7 @@ header li a{
     margin-top: 5%;
     opacity: 1;
     text-align: center;
-    padding: 5px 0;
+    padding: 8px 0;
     border-radius: 15px;
     border-style:solid
 }
@@ -120,33 +112,39 @@ header li a{
 
 
 /**************************************************/
-/*CSS for background*/
+/*CSS for background of About, Contact, Projects*/
 #pageBack {
     float: left;
     width: 100%;
     height: 775px;
     background: lightblue;
-    /*Angular Gradient*/
-    background: -moz-linear-gradient(45deg, rgb(50, 191, 242) 0%, white 100%);
-    background: -webkit-linear-gradient(45deg, rgb(50, 191, 242) 0%,  white 100%);
-    background: -o-linear-gradient(45deg, rgb(50, 191, 242) 0%,  white 100%);
-    background: linear-gradient(45deg, rgb(50, 191, 242) 0%,  white 100%);
+    /*Linear Gradient*/
+    background: -moz-linear-gradient( rgb(50, 191, 242) 0%, rgb(213, 244, 255) 100%);
+    background: -webkit-linear-gradient(rgb(50, 191, 242) 0%, rgb(213, 244, 255) 100%);
+    background: -o-linear-gradient(rgb(50, 191, 242) 0%,  rgb(213, 244, 255) 100%);
+    background: linear-gradient( rgb(50, 191, 242) 0%,  rgb(213, 244, 255) 100%);
 
 }
 
 /**************************************************/
 /*CSS for CONTACT pages*/
+
+/*Titletext for both contact and project page*/
+.titleText {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: rgb(29, 29, 104);
+} 
+
 #formContents{
     margin-left: 30px;
 }
 
 #inputBtn{
     align-items: center;
-    margin: 5px;
-    display: flex;
-    list-style: none;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
+    margin: 10px;
+    display: flex; /*Align both buttons*/
 }
 
 #pageBack h1{
@@ -164,7 +162,6 @@ header li a{
     float: right;
     width: 50%;
     height: 775px;
-    background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252)100%);
     background: -webkit-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -176,8 +173,6 @@ header li a{
     float: left;
     width: 50%;
     height: 775px;
-    background: lightblue;
-    background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252)100%);
     background: -webkit-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -210,21 +205,6 @@ img:hover {
     color: rgb(29, 29, 104);
 }
 
-
-/*.vidInstruct {
-    height: 35px;
-    width: 380px;
-    background-color: rgb(202, 240, 252);
-    margin-left: 20%;
-    margin-top: 75px;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(202, 240, 252);
-
-}*/
 #vidInstruct{
     color: rgb(34, 34, 120);
     font-size: 100%;
@@ -235,31 +215,32 @@ img:hover {
     margin-left: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
-    text-justify: inter-word;
     color: rgb(29, 29, 104);
 }
 
+/*Section in which video is in*/
 #myVideo{
-    
     width: 70%;
     height: 50%;
   }
 
+  /*Dimensions for actual video*/
 video{
     margin-left: 140px;
     margin-top: 100px;
 }
 
-  button{
-    background-color: rgb(34, 34, 120);
-    color: white;
-    height: 50px;
-    border: 2px whitesmoke;
-    border-radius: 5px; /*This rounds the edges*/
-    margin-left: 48%;
-    margin-top: 25px;
-
+/*Play/Pause button*/
+button{
+  background-color: rgb(34, 34, 120);
+  color: white;
+  height: 55px;
+  border: 2px whitesmoke;
+  border-radius: 5px; /*This rounds the edges*/
+  margin-left: 48%;
+  margin-top: 25px;
 }
+
 button:hover
 {
     background-color: white;
@@ -268,7 +249,6 @@ button:hover
     border: 2px whitesmoke;
     border-radius: 5px; /*This rounds the edges*/
 }
-
 
 /**************************************************/
 /*CSS for FOOTER*/
@@ -282,36 +262,35 @@ button:hover
     font-family: 'Times New Roman', Times, serif;
   }
 
-    /**************************************************/
-  /*CSS for PROJECT*/
+/**************************************************/
+/*CSS for PROJECT*/
 
-  .projectNames h1,h3{
-    height: 15%;
-    width: 55%;
-    background-color: rgb(160, 231, 253);
-    margin-left: 24%;
-    margin-top: 10%;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(202, 240, 252);
-}
-
-
-.projectNames{
-    transition: transform .2s; /* Animation */
+.projectNames h1,h3{
+  height: 15%;
+  width: 55%;
+  background-color: rgb(160, 231, 253);
+  margin-left: 24%;
+  margin-top: 10%;
+  text-align: center;
+  padding: 13px 0px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: rgb(202, 240, 252);
 }
 
 .projectNames:hover {
     transform: scale(1.1);
 }
 
+/*Dlow down zoom in to look smooth*/
+.projectNames{
+    transition: transform .5s; /* Animation */
+}
+
 a#one.btn{
-    text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid rgb(252, 202, 247);
+    text-decoration: none; /*Remove underline*/
+    padding: 10px;
+    border: 1px solid rgb(244, 144, 234);
     background-color: rgb(252, 202, 247);
     color: black;
     margin-left: 43%;
@@ -320,11 +299,11 @@ a#one.btn{
 
 a#two.btn{
     text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid rgb(252, 202, 247);
+    padding: 10px;
+    border: 1px solid rgb(244, 144, 234);
     background-color: rgb(252, 202, 247);
     color: black;
-    margin-left: 45%;
+    margin-left: 46%;
     border-radius: 15px;
   }
 

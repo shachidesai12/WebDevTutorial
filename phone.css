@@ -2,6 +2,7 @@
 *{
     font-family: sans-serif;
 }
+
 #wrapper {
     width: 100%;
     min-height: 725px;
@@ -14,11 +15,9 @@
 /*CSS for header on ALL pages*/
 .logo{
     margin-left: 2%;
-}
-
-.logo h1{
     font-size: 13px;
 }
+
 header {
     float: left;
     width: 99%;
