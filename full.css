@@ -47,13 +47,11 @@ header li a{
 
 #header .navBar{
     width: 99%;
-    position: relative;
     display: inline-flex; /*Make sure logo is inline with other contents*/
     justify-content: space-between;
     background-color: rgb(221, 246, 252);
     color: rgb(34, 34, 120);
 }
-
 
 #pageLinks{
     align-items: center;
@@ -67,7 +65,6 @@ header li a{
     float: inline-start; /*Make sure it is positioned at the top*/
     width: 100%;
     min-height: 775px;
-    background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
     background: -webkit-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -196,7 +193,13 @@ img:hover {
     transform: scale(1.1);
 }
 
-
+#IntroPara{
+    font-size: 18px;
+    margin-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: rgb(29, 29, 104);
+}
 
 #aboutTitle {
     margin-top: 20px;
@@ -210,13 +213,7 @@ img:hover {
     font-size: 100%;
 }
 
-#IntroPara{
-    font-size: 18px;
-    margin-left: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    color: rgb(29, 29, 104);
-}
+
 
 /*Section in which video is in*/
 #myVideo{

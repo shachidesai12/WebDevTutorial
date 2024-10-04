@@ -15,24 +15,23 @@
 /*CSS for header on ALL pages*/
 .logo{
     margin-left: 2%;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 header {
-    float: left;
     width: 99%;
     background-color: rgb(250, 254, 255);
     color: rgb(50, 191, 242);
-    
 }
-/* put nav bar horizontal*/
+
+/* put nav bar contents horizontal*/
 header *{
     display: inline;
 }
+
  /* Space out navigation tabs*/
 header li{
     margin: 4px
-    
 }
 
 header li a{
@@ -47,8 +46,7 @@ header li a{
 
 #header .navBar{
     width: 100%;
-    position: relative;
-    display: inline-flex;
+    display: inline-flex; /*Make sure logo is inline with other contents*/
     justify-content: space-between;
     background-color: rgb(221, 246, 252);
     color: rgb(34, 34, 120);
@@ -56,7 +54,6 @@ header li a{
 }
 #pageLinks{
     align-items: center;
-    margin: 20px;
     color: rgb(50, 191, 242);
     font-size: 10px;
 }
@@ -64,11 +61,10 @@ header li a{
 /**************************************************/
 /*CSS for HOME pages*/
 #homePage {
-    float: left;
+    float: inline-start; /*Make sure it is positioned at the top*/
     width: 100%;
     min-height: 750px;
-    background: lightblue;
-    /*Linear Gradient*/
+    /*Angular Gradient*/
     background: -moz-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
     background: -webkit-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
     background: -o-linear-gradient(25deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -92,13 +88,6 @@ header li a{
 
 #homeText h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.titleText {
-    margin-top: 10%;
-    margin-left: 2%;
-    background-color: transparent;
-    color: rgb(29, 29, 104);
 }
 
 .box {
@@ -139,6 +128,15 @@ header li a{
 
 /**************************************************/
 /*CSS for CONTACT pages*/
+
+/*Titletext for both contact and project page*/
+.titleText {
+    margin-top: 10%;
+    margin-left: 2%;
+    background-color: transparent;
+    color: rgb(29, 29, 104);
+}
+
 #formContents{
     margin-left: 2%;
 }
@@ -146,11 +144,7 @@ header li a{
 #inputBtn{
     align-items: center;
     margin: 5px;
-    display: flex;
-    list-style: none;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-
+    display: flex; /*Align both buttons*/
 }
 
 #pageBack h1{
@@ -168,7 +162,6 @@ header li a{
     float: right;
     width: 50%;
     height: 750px;
-    background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252)100%);
     background: -webkit-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -180,8 +173,6 @@ header li a{
     float: left;
     width: 50%;
     height: 750px;
-    background: lightblue;
-    background: lightblue;
     /*Angular Gradient*/
     background: -moz-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252)100%);
     background: -webkit-linear-gradient(180deg, rgb(50, 191, 242) 0%, rgb(202, 240, 252) 100%);
@@ -198,12 +189,13 @@ header li a{
     font-size: 12px;
 }
 
+/*Styling for image*/
 img{
     margin-left: 5%;
     width: 170px;
-    /*max-height: auto;*/
 }
 
+/*Styling for image container*/
 figure{
     margin-left: 2px;
 }
@@ -215,46 +207,46 @@ figure{
     color: rgb(29, 29, 104);
 }
 
-/*.vidInstruct {
-    height: 15%;
-    width: 60%;
-    background-color: rgb(202, 240, 252);
-    margin-left: 20%;
-    margin-top: 55%;
-    opacity: 1;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgb(202, 240, 252);
+#IntroPara{
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: rgb(29, 29, 104);
+}
 
-}*/
 .vidInstruct #vidInstruct{
     color: rgb(34, 34, 120);
     font-size: 12px;
 
 }
 
+/*Section in which video is in*/
 #myVideo{
     width: 215px;
     height: 115px;
   }
 
-  video{
-    margin-left: 0px;
-    margin-top: 15px;
-  }
-  button{
-    background-color: rgb(34, 34, 120);
-    color: white;
-    height: 50px;
-    border: 2px whitesmoke;
-    border-radius: 5px; /*This rounds the edges*/
-    margin-left: 25%;
-    margin-top: 11%;
+/*Dimensions for actual video*/
+video{
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+  /*Play/Pause button*/
+button{
+  background-color: rgb(34, 34, 120);
+  color: white;
+  height: 50px;
+  border: 2px whitesmoke;
+  border-radius: 5px; /*This rounds the edges*/
+  margin-left: 25%;
+  margin-top: 11%;
   
   }
+
+  /*No hover in phone but changes colour when clicked*/
   button:hover
   {
       background-color: white;
@@ -264,18 +256,6 @@ figure{
       border-radius: 5px; /*This rounds the edges*/
   }
   
-#IntroPara{
-    font-size: 40px;
-    margin-left: 5%;
-    margin-top: 0%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
-    color: rgb(29, 29, 104);
-}
-
-
-
 /**************************************************/
 /*CSS for FOOTER*/
 #footer {
@@ -298,17 +278,16 @@ figure{
     margin-left: 24%;
     margin-top: 10%;
     text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
+    padding: 15px 0px;
     border-radius: 15px;
     border-style: solid;
     border-color: rgb(202, 240, 252);
 }
 
 a#one.btn{
-    text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid rgb(252, 202, 247);
+    text-decoration: none; /*Remove underline*/
+    padding: 10px;
+    border: 1px solid rgb(244, 144, 234);
     background-color: rgb(252, 202, 247);
     color: black;
     margin-left: 18%;
@@ -316,9 +295,9 @@ a#one.btn{
   }
 
 a#two.btn{
-    text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid rgb(252, 202, 247);
+    text-decoration: none; /*Remove underline*/
+    padding: 10px;
+    border: 1px solid rgb(244, 144, 234);
     background-color: rgb(252, 202, 247);
     color: black;
     margin-left: 25%;
