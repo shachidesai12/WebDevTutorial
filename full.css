@@ -25,14 +25,13 @@ header {
     top: 0; 
     
 }
-/* put nav bar horizontal*/
+/* put nav bar contents horizontal*/
 header *{
     display: inline;
 }
  /* Space out navigation tabs*/
 header li{
     margin: 12px
-    
 }
 
 header li a{
